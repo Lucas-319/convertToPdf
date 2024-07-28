@@ -20,9 +20,9 @@ import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
 
 @Service
-public class DocumentService {
+public class ConvertDocumentService {
 
-	private static final Logger logger = LoggerFactory.getLogger(DocumentService.class);
+	private static final Logger logger = LoggerFactory.getLogger(ConvertDocumentService.class);
 
 	public Map<String, Object> upload(MultipartFile file) throws IOException, DocumentException {
 		Map<String, Object> response = new HashMap<>();
@@ -36,7 +36,6 @@ public class DocumentService {
 		} else {
 			response.put("status", 500);
 			response.put("message", "Arquivo invalido.");
-			logger.error("Não foi possível converter o arquivo enviado.");
 		}
 		return response;
 	}
