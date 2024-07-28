@@ -14,7 +14,7 @@ import com.itextpdf.text.DocumentException;
 import com.lucas.convertToPdf.services.ConvertDocumentService;
 
 @RestController
-@RequestMapping("/documents")
+@RequestMapping("/convertDocument")
 public class DocumentController {
 	
 	@Autowired
