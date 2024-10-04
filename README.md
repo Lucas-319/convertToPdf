@@ -18,9 +18,3 @@ O projeto utiliza várias dependências para garantir a conversão eficiente dos
 ## Observações
 
 - **Compatibilidade**: O projeto pode apresentar problemas de compatibilidade com diferentes versões de documentos `.docx`. É recomendável salvar os arquivos no formato do Word 2007 ou anterior para garantir uma conversão bem-sucedida.
-
-## Exemplo de Uso
-
-(/convertToPdf/src/main/resources/templates/ConvertToPdf.png)
-
-O exemplo acima mostra como a ferramenta funciona.
